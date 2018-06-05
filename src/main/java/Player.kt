@@ -1,7 +1,7 @@
-class Player {
+class Player(val name: String) {
     var score = Score()
 
-    fun getScore(){}
-    fun scorePoint(){}
+    fun getScore() {}
+    fun scorePoint() {}
 
 }
